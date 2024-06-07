@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insert Record</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Insert Record</h1>
+  <form id="recordForm">
+    <input type="number" id="recordInput" placeholder="Enter record" required>
+    <select name="tipo" id="recordSelect">
+        <option value="jeans">Jeans</option>
+        <option value="tecido">Tecido</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
